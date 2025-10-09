@@ -1,0 +1,7 @@
+node_modules
+__pycache__
+dist
+**/.DS_Store
+.vscode
+yarn.lock
+dist.zip

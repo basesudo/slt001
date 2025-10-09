@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_3888" data-name="矩形 3888" width="20" height="20" transform="translate(197 371.53)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="杠杆" transform="translate(-165 -187)">
+    <circle id="椭圆_98" data-name="椭圆 98" cx="20" cy="20" r="20" transform="translate(165 187)" fill="#138a5d"/>
+    <g id="杠杆-2" data-name="杠杆" transform="translate(-22 -175.53)" clip-path="url(#clip-path)">
+      <g id="组_739" data-name="组 739" transform="translate(196.309 371.282)">
+        <path id="联合_75" data-name="联合 75" d="M0,16.714,12.756,3.957,9.4.6,17.911,0l-.6,8.514-3.57-3.57L.986,17.7Z" transform="translate(1.48 2.079)" fill="#fff"/>
+        <g id="椭圆_903" data-name="椭圆 903" transform="translate(5.044 0.293) rotate(45)" fill="none" stroke="#fff" stroke-width="1.5">
+          <circle cx="4.067" cy="4.067" r="4.067" stroke="none"/>
+          <circle cx="4.067" cy="4.067" r="3.317" fill="none"/>
+        </g>
+        <g id="椭圆_904" data-name="椭圆 904" transform="translate(15.156 10.311) rotate(45)" fill="none" stroke="#fff" stroke-width="1.5">
+          <circle cx="4.067" cy="4.067" r="4.067" stroke="none"/>
+          <circle cx="4.067" cy="4.067" r="3.317" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

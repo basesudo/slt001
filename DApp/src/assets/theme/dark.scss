@@ -1,0 +1,232 @@
+/** 黑色主题*/
+:root body[theme='dark'] {
+  /* 主题色 */
+  --ex-primary-color: #17ac74;
+  /* 默认背景色 */
+  --ex-default-background-color: #1f2329;
+  /* 默认文本色 */
+  --ex-default-font-color: #ffffff;
+  /* 默认提示颜色*/
+  --ex-tip-font-color: #df163d;
+
+  // 涨
+  --ex-rfd-rise-bg: rgba(46, 189, 133, 0.2);
+  // 跌
+  --ex-rfd-fall-bg: rgba(223, 41, 74, 0.2);
+  // 平
+  --ex-rfd-draw-bg: rgba(125, 145, 157, 0.2);
+  // 涨
+  --ex-rfd-rise: #4bbd83;
+  // 跌
+  --ex-rfd-fall: #d62548;
+  // 平
+  --ex-rfd-draw: #7d919d;
+
+  /* 首页实时数据 */
+  /* div背景色 */
+  --ex-home-box-background-color: #34393e;
+  --ex-home-box-background-color2: #34393e;
+  --ex-home-box-background-color3: #34393e;
+  /* tabbar背景色*/
+  --ex-home-tabbar-background-color: #1f2329;
+  /* 边框色 */
+  --ex-home-box-border-color: #4c4e53;
+  /* 字体颜色 */
+  --ex-home-font-color: #17ac74;
+  /* 通知背景 */
+  --ex-home-notice-bgcolor: #34393e;
+  /* 通知字体 */
+  --ex-home-notice-color: #fff;
+  /* 列表头背景 */
+  --ex-home-list-bgcolor: #34393e;
+  // --ex-home-list-bgcolor: #1f2329;
+  /* 列表头字体 */
+  --ex-home-list-ftcolor: #ffffff;
+  /* 列表字体1 */
+  --ex-home-list-ftcolor2: #838b9c;
+  /* 列表字体2 */
+  --ex-home-list-ftcolor3: #35aa82;
+  /* tabbar顶部边框*/
+  --ex-home-tabbar-border: #34393e;
+  /* 弹窗钱包地址背景 字体*/
+  --ex-home-sidebar-address-bgcolor: #34393e;
+  --ex-home-sidebar-address-ftcolor: #fff;
+
+  /* 初级认证*/
+  /* 顶部底边框颜色*/
+  --ex-home-top-border-color: #34393e;
+  /* 输入框背景颜色 字体*/
+  --ex-input-background-color: #34393e;
+  --ex-input-label-ftcolor: #a0a5af;
+  --ex-input-font-color: #505358;
+
+  /* 按钮*/
+  /* 提交按钮背景 字体 边框*/
+  --ex-btn-background-color: #17ac74;
+  --ex-btn-font-color: #ffffff;
+  --ex-btn-background-color2: #fff;
+  --ex-btn-font-color2: #17ac74;
+
+  /* 高级认证 实名认证*/
+  /* 输入框背景颜色 字体 边框*/
+  --ex-input-background-color2: #34393e;
+  --ex-input-border-color: #34393e;
+  --ex-input-label-color: #a0a5af;
+  --ex-input-font-color2: #505358;
+  /* 选择框背景颜色 字体 边框*/
+  --ex-select-background-color: #34393e;
+  --ex-select-boder-color: #34393e;
+  --ex-select-font-color: #a0a5af;
+  --ex-select-border-btmcolor: #34393e;
+  /* 证件类别 、国家选择弹出框背景 字体 边框*/
+  --ex-select-dialog-background-color: #34393e;
+  --ex-select-dialog-font-color: #ffffff;
+  --ex-select-dialog-boder-color: #505358;
+
+  /* 绑定银行卡*/
+  /* 输入框背景颜色 字体*/
+  --ex-bindcard-input-background-color: #1f2329;
+  --ex-bindcard-input-border-color: #34393e;
+  --ex-bindcard-input-font-color: #505358;
+
+  /* defi挖矿*/
+  /* eth 背景 边框 字体 label 按钮*/
+  --ex-eth-background-color: #34393e;
+  --ex-eth-border-color: #505358;
+  --ex-eth-font-color: #17ac74;
+  --ex-eth-font-color2: #fff;
+  --ex-eth-label-color: #838b9c;
+  --ex-eth-button-color: #17ac74;
+  --ex-eth-button-bdcolor: #fff;
+
+  /* 挡位收益比率*/
+  /* table 边框 字体*/
+  --ex-profit-table-border-color: #34393e;
+  --ex-profit-table-font-color: #fff;
+
+  /* 用户输出*/
+  /* table 边框 字体*/
+  --ex-output-table-border-color: #34393e;
+  --ex-output-table-font-color: #fff;
+
+  /* 质押挖矿*/
+  /* usdt 边框 字体  背景*/
+  --ex-usdt-background-color: #34393e;
+  --ex-usdt-border-color: #34393e;
+  --ex-usdt-border-color2: #505358;
+  --ex-usdt-border-color3: none;
+  /* 项目信息*/
+  --ex-project-border-color: #505358;
+
+  /* 登录注册*/
+  /* 表单输入框 背景 边框 字体*/
+  --ex-login-input-background-color: #34393e;
+  --ex-login-input-border-color: #1f2329;
+  --ex-login-input-font-color: #e2e2e2;
+  /* tab背景色 */
+  --ex-login-tab-background-color: #1f2329;
+
+  /* 选中文本色 */
+  --ex-active-font-color: #17ac74;
+  /* 未选中文本色 */
+  --ex-passive-font-color: #838b9c;
+  /* tab背景颜色  快捷充币选中*/
+  --ex-activetab-back-color: #34393e;
+  /* 表格头背景颜色 */
+  --ex-tabletop-back-color: #fbfbfb;
+  /*盒子阴影背景*/
+  --ex-shadow-back-color: rgba(5, 5, 5, 0.7);
+  // K线图
+  --ex-candlestick-bg: #202329;
+
+  /* 基础字体色 */
+  --ex-font-color: #fff;
+  --ex-font-color6: #ffffff;
+  --ex-font-color8: #999;
+  --ex-font-color14: red;
+  --ex-font-color17: #bbb;
+  --ex-font-color20: #fff;
+  --ex-font-color22: #fff;
+  --ex-font-color1: #ffffff;
+  --ex-font-color2: #138a5d;
+  --ex-font-color3: #df163d;
+  --ex-font-color4: #d62548;
+  --ex-font-color5: #d9d9d9;
+  --ex-font-color7: #505050;
+  --ex-font-color9: #17ac74;
+  --ex-font-color10: #d50f3a;
+  --ex-font-color11: #34393e;
+  --ex-font-color12: #ffffff;
+  --ex-font-color13: #d8d8d8;
+  --ex-font-color15: #b61f1b;
+  --ex-font-color16: #1e1e1e;
+  --ex-font-color18: #7c7e82;
+  --ex-font-color19: #b5b5b5;
+  --ex-font-color21: #9da2ae;
+  --ex-font-color23: #003ebf;
+  --ex-font-color24: #3b3e4e;
+  --ex-font-color25: #999ba9;
+  --ex-font-color26: #bcbcc8;
+  --ex-font-color27: #e35561;
+  --ex-font-color28: #3bac72;
+
+  /* 背景色 #1c1c1c */
+  --ex-div-bgColor: #34393e;
+  --ex-div-bgColor1: #17ac74;
+  --ex-div-bgColor2: #f5f5f5;
+  --ex-div-bgColor3: #d9d9d9;
+  --ex-div-bgColor4: #515151;
+  --ex-div-bgColor5: #464851;
+  --ex-div-bgColor6: #e7f1ed;
+  --ex-div-bgColor7: #df163d;
+  --ex-div-bgColor8: #34393e;
+  --ex-div-bgColor9: #d50f3a;
+  --ex-div-bgColor10: #131722;
+  --ex-div-bgColor11: #34393e;
+  --ex-div-bgColor12: #e8e8e8;
+  --ex-div-bgColor13: #34393e;
+  --ex-div-bgColor14: #4bbd83;
+
+  --ex-div-bgColor16: #b21130;
+  --ex-div-bgColor17: #2f323b;
+  --ex-div-bgColor19: #525252;
+  --ex-div-bgColor20: #34393e;
+  --ex-div-bgColor21: #eff8f5;
+  --ex-div-bgColor22: #34393e;
+  --ex-div-bgColor23: #fafafa;
+  --ex-div-bgColor24: #fa3040;
+  --ex-div-bgColor25: #3cbc8c;
+  --ex-div-bgColor26: #404040;
+  --ex-div-bgColor27: #f3f1f7;
+  --ex-div-bgColor28: #f0f0f0;
+  --ex-div-bgColor29: #eff8f5;
+
+  /* 按钮背景色 */
+  --ex-btn-pramary-bgColor: #17ac74;
+  --ex-btn-bgColor: #f1f1f1;
+  --ex-btn-bgColor1: #ecfcf6;
+
+  /* 进度条颜色，进度条默认颜色 */
+  --ex-active-progress-bgColor: #138a5d;
+  --ex-default-progress-bgColor: #d9d9d9;
+
+  /* input背景色，边框色 */
+  --ex-input-bgColor: #dfdfdf;
+  --ex-input-boder-bgColor: #f5f5f5;
+
+  /* 滑块背景色 */
+  --ex-slider-bgColor: #515151;
+
+  /* 边框色     */
+
+  --ex-border-color: #34393e;
+  --ex-border-color1: #4c4e53;
+  --ex-border-color2: #34393e;
+  --ex-border-color3: #138a5d;
+  --ex-border-color4: #17ac74;
+  --ex-border-color5: #34393e;
+  --ex-border-color7: #3bac72;
+  --ex-border-color6: #eee;
+  --ex-border-color8: #777777;
+  --ex-border-color9: #777777;
+}

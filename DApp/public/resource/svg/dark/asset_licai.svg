@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="理财" transform="translate(-216 -286)">
+    <circle id="椭圆_99" data-name="椭圆 99" cx="20" cy="20" r="20" transform="translate(216 286)" fill="#138a5d"/>
+    <g id="组_740" data-name="组 740" transform="translate(121.143 185.613)">
+      <path id="路径_3242" data-name="路径 3242" d="M114.857,110.387a10,10,0,1,0,10,10A10,10,0,0,0,114.857,110.387Zm0,18.621a8.621,8.621,0,1,1,8.621-8.621A8.621,8.621,0,0,1,114.857,129.008Z" transform="translate(0 0)" fill="#fff"/>
+      <g id="矩形_3889" data-name="矩形 3889" transform="translate(114.857 116.142) rotate(45)" fill="none" stroke="#fff" stroke-width="1.5">
+        <rect width="6.003" height="6.003" stroke="none"/>
+        <rect x="0.75" y="0.75" width="4.503" height="4.503" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

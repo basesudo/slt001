@@ -1,0 +1,11 @@
+
+^
+java:S1192("HDefine a constant instead of duplicating this literal "binance" 8 times.(ƒëÚ†
+u
+java:S1149M"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(¢ˆ®›ûÿÿÿÿ
+X	java:S125U"<This block of commented-out lines of code should be removed.(¶©…³8çŒÐÔ³2
+V	java:S125X"<This block of commented-out lines of code should be removed.(Ò÷£˜üÿÿÿÿ
+Q	java:S125Z"<This block of commented-out lines of code should be removed.(Ììê³
+^	java:S125Š"<This block of commented-out lines of code should be removed.(¥õðûÿÿÿÿ8÷ÐÔ³2
+R	java:S125"<This block of commented-out lines of code should be removed.(´ù¼Ñ

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_3985" data-name="矩形 3985" width="21" height="21" transform="translate(197 372)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="杠杆" transform="translate(-197 -372)" clip-path="url(#clip-path)">
+    <g id="组_760" data-name="组 760" transform="translate(-3.905 -3.141)">
+      <path id="联合_65" data-name="联合 65" d="M0,18.552,14.431,4.124,11.34,1.031,20.613,0,19.582,9.278,16.49,6.185,2.062,20.613Z" transform="translate(201.043 375.25)" fill="#a0a5af"/>
+      <g id="椭圆_230" data-name="椭圆 230" transform="translate(206.345 374.368) rotate(45)" fill="none" stroke="#17ac74" stroke-width="2">
+        <circle cx="4.373" cy="4.373" r="4.373" stroke="none"/>
+        <circle cx="4.373" cy="4.373" r="3.373" fill="none"/>
+      </g>
+      <g id="椭圆_231" data-name="椭圆 231" transform="translate(217.534 384.381) rotate(45)" fill="none" stroke="#17ac74" stroke-width="2">
+        <circle cx="4.373" cy="4.373" r="4.373" stroke="none"/>
+        <circle cx="4.373" cy="4.373" r="3.373" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

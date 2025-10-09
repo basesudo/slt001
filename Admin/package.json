@@ -1,0 +1,98 @@
+{
+  "name": "admin",
+  "version": "2.0.0",
+  "description": "后台管理系统",
+  "author": "echo2.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:development": "vue-cli-service build --mode development", 
+    "preview": "node bin/build/index.js --preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "vue",
+    "admin",
+    "dashboard",
+    "element-ui",
+    "boilerplate",
+    "admin-template",
+    "management-system"
+  ],
+  "dependencies": {
+    "@riophae/vue-treeselect": "0.4.0",
+    "axios": "0.24.0",
+    "clipboard": "2.0.8",
+    "colors": "^1.4.0",
+    "compressing": "^1.9.1",
+    "core-js": "3.25.3",
+    "dayjs": "^1.11.9",
+    "decimal.js": "^10.4.3",
+    "echarts": "5.4.0",
+    "element-ui": "2.15.13",
+    "file-saver": "2.0.5",
+    "fuse.js": "6.4.3",
+    "highlight.js": "9.18.5",
+    "js-beautify": "1.13.0",
+    "js-cookie": "3.0.1",
+    "jsencrypt": "3.0.0-rc.1",
+    "loadsh": "^0.0.4",
+    "nprogress": "0.2.0",
+    "quill": "1.3.7",
+    "screenfull": "5.0.2",
+    "sortablejs": "1.10.2",
+    "speak-tts": "^2.0.8",
+    "time-formater": "^1.1.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "2.6.12",
+    "vue-count-to": "1.0.13",
+    "vue-cropper": "0.5.5",
+    "vue-meta": "2.4.0",
+    "vue-router": "3.4.9",
+    "vuedraggable": "2.24.3",
+    "vuex": "3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.4.6",
+    "@vue/cli-plugin-eslint": "4.4.6",
+    "@vue/cli-service": "4.4.6",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "chalk": "4.1.0",
+    "compression-webpack-plugin": "5.0.2",
+    "connect": "3.6.6",
+    "eslint": "7.15.0",
+    "eslint-plugin-vue": "7.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "lint-staged": "10.5.3",
+    "runjs": "4.4.2",
+    "sass": "1.32.13",
+    "sass-loader": "10.1.1",
+    "script-ext-html-webpack-plugin": "2.1.5",
+    "svg-sprite-loader": "5.1.1",
+    "terser-webpack-plugin": "^5.3.9",
+    "vue-template-compiler": "2.6.12"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="gou-x" transform="translate(-137 -171)">
+    <g id="椭圆_30" data-name="椭圆 30" transform="translate(138.801 171.9)" fill="#fff" stroke="#707070" stroke-width="1">
+      <ellipse cx="7.664" cy="6.753" rx="7.664" ry="6.753" stroke="none"/>
+      <ellipse cx="7.664" cy="6.753" rx="7.164" ry="6.253" fill="none"/>
+    </g>
+    <path id="路径_37" data-name="路径 37" d="M73,82a9,9,0,1,0-9-9A9,9,0,0,0,73,82Zm-4.3-8.249a.643.643,0,1,1,.909-.909l2.273,2.273,5-5a.643.643,0,0,1,.908.909L72.34,76.479a.643.643,0,0,1-.909,0Z" transform="translate(73 107)" fill="#26a17b"/>
+  </g>
+</svg>

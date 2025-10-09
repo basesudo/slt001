@@ -1,0 +1,72 @@
+
+]
+java:S1192s"GDefine a constant instead of duplicating this literal "symbol" 8 times.(èÜ§«
+d
+java:S1192u"IDefine a constant instead of duplicating this literal "interval" 4 times.(ÂöýÒþÿÿÿÿ
+c
+java:S1192w"HDefine a constant instead of duplicating this literal "endTime" 4 times.(ê‘ÿÜýÿÿÿÿ
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìö÷´ÿÿÿÿÿ
+k	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ä–²úÿÿÿÿ
+
+java:S1488É"cImmediately return this expression instead of assigning it to the temporary variable "ticker24hVO".(õç…ƒùÿÿÿÿ
+
+java:S1488ò"cImmediately return this expression instead of assigning it to the temporary variable "ticker24hVO".(õç…ƒùÿÿÿÿ
+Q	java:S125>"<This block of commented-out lines of code should be removed.(œ˜Í€
+:
+java:S1168E"$Return an empty map instead of null.(¥¹ï
+T
+java:S1155K">Use isEmpty() to check whether the collection is empty or not.(¼‘Ä 
+Y
+java:S1858T"C"getString" returns a string, there's no need to call "toString()".(ç¸û÷
+^
+java:S1858U"C"getString" returns a string, there's no need to call "toString()".(ž´šèúÿÿÿÿ
+^
+java:S1858V"C"getString" returns a string, there's no need to call "toString()".(ØŒíõúÿÿÿÿ
+^
+java:S1858W"C"getString" returns a string, there's no need to call "toString()".(¯ÂÞ¼þÿÿÿÿ
+Y
+java:S1858X"C"getString" returns a string, there's no need to call "toString()".(«ØØ†
+Y
+java:S1858Y"C"getString" returns a string, there's no need to call "toString()".(ÏÆÖ˜
+Q	java:S125d"<This block of commented-out lines of code should be removed.(˜ð•
+m
+java:S3776h"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ã»ï¦ùÿÿÿÿ
+g
+java:S3252k"LUse static access with "org.apache.commons.lang3.StringUtils" for "isBlank".(¢ôó¾ûÿÿÿÿ
+B
+java:S1168®"+Return an empty collection instead of null.(¥¹ï
+4
+java:S2119Ë"Save and re-use this "Random".(¼ÝÅf
+B
+java:S1168ê"+Return an empty collection instead of null.(¥¹ï
+i
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(“ò•Ò
+h
+java:S3252î"LUse static access with "org.apache.commons.lang3.StringUtils" for "isBlank".(¢ôó¾ûÿÿÿÿ
+B
+java:S1168²"+Return an empty collection instead of null.(¥¹ï
+4
+java:S2119Ï"Save and re-use this "Random".(¼ÝÅf
+B
+java:S1168è"+Return an empty collection instead of null.(¥¹ï
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(¦ù¨
+4
+java:S2119¸"Save and re-use this "Random".(¼ÝÅf
+8
+java:S2111»"!Use "BigDecimal.valueOf" instead.(ö©¬â
+X
+java:S1854Ò"<Remove this useless assignment to local variable "dataList".(†öà®þÿÿÿÿ
+I
+java:S1481Ò"-Remove this unused "dataList" local variable.(†öà®þÿÿÿÿ
+4
+java:S2119â"Save and re-use this "Random".(¼ÝÅf
+8
+java:S2111ä"!Use "BigDecimal.valueOf" instead.(ö©¬â
+n
+java:S3776ö"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¢à’ þÿÿÿÿ
+D
+java:S1481ü"(Remove this unused "num" local variable.(†¬›Äûÿÿÿÿ
+h
+java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ÃÌ(
+D
+java:S1481µ"(Remove this unused "num" local variable.(†¬›Äûÿÿÿÿ

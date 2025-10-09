@@ -1,0 +1,70 @@
+* {
+  // color: #333;
+  font-size: 14px;
+}
+
+.formData {
+  & > p {
+    margin: 20px 0 10px;
+  }
+  & > div {
+    border: 1px solid var(--ex-login-input-border-color);
+    padding: 8px 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    background: var(--ex-login-input-background-color);
+    img {
+      height: 100%;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      i {
+        color: var(--ex-active-font-color);
+      }
+      p {
+        margin: 0 5px;
+        color: var(--ex-active-font-color);
+      }
+    }
+    .jiantou {
+      font-size: 10px;
+    }
+    input::placeholder {
+      color: var(--ex-login-input-font-color);
+    }
+    input {
+      background: var(--ex-login-input-background-color);
+      padding: 3px 0;
+      flex: 1;
+    }
+    span {
+      // width: 50px;
+      background-color: var(--ex-passive-font-color);
+      height: 30px;
+    }
+    & > p {
+      background-color: var(--ex-primary-color);
+      border-radius: 2px;
+      padding: 3px 8px;
+      color: var(--ex-font-color);
+    }
+  }
+}
+.forgotPwd {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: right;
+  color: var(--ex-font-color9);
+}
+.van-toast__text {
+  color: var(--ex-font-color);
+}
+.requirePass {
+  font-size: 10px;
+  margin-top: 8px;
+  color: var(--ex-font-color14);
+}

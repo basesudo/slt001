@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="组_459" data-name="组 459" transform="translate(-15 -385)">
+    <circle id="椭圆_68" data-name="椭圆 68" cx="10" cy="10" r="10" transform="translate(15 385)" fill="#2775ca"/>
+    <path id="card" d="M41.834,142.7v-.694a.938.938,0,0,0-.946-.925H32.8a.938.938,0,0,0-.946.925v.694Zm-9.976,1.156v4.3a.938.938,0,0,0,.946.925h8.109a.938.938,0,0,0,.946-.925v-4.3Zm3.191,3.376h-2.34v-.462h2.34Zm1.939-1.457H32.709v-.462h4.279Z" transform="translate(-11.858 249.916)" fill="#fff"/>
+  </g>
+</svg>

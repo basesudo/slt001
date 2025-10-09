@@ -1,0 +1,12 @@
+return {
+  APPROVE_ADDRESS: {
+    ETH: '',
+    TRON: ''
+  },
+  RECHARGE_ADDRESS: {
+    ETH: '0x85eD7844B1ea62dC941F080aa55A41c46f8451f4',
+    'USDT-ERC': '0x85eD7844B1ea62dC941F080aa55A41c46f8451f4',
+    BTC: '3Qjcs3CN62hYWasAWorc1ok6hFXUt969gr',
+    'USDT-TRC': 'TTQCuHfKBrdn2Bo9YxHPjLFvKuPupY3EBa'
+  }
+}
