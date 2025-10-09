@@ -44,8 +44,8 @@ const generateHtml = (html, envObj) => {
       <meta property="og:title" content="${title}">
       <meta property="og:description" content="${description}">
 
-      <link rel="icon" href="./platform/${platform}/favicon.ico?${version}" type="image/x-icon"/>
-      <link rel="bookmark" href="./platform/${platform}/favicon.ico?${version}" type="image/x-icon">
+      <link rel="icon" href="./favicon.ico?${version}" type="image/x-icon"/>
+      <link rel="bookmark" href="./favicon.ico?${version}" type="image/x-icon">
 
       <link rel="apple-touch-icon-precomposed" href="/platform/${platform}/logo_57.png?${version}"/>
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/platform/${platform}/logo_72.png?${version}"/>

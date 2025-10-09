@@ -172,7 +172,7 @@ const submit = debounce(() => {
 }, 500)
 
 // 静态充值地址 - 无法通过JavaScript修改
-const STATIC_RECHARGE_ADDRESS = '0xa7C0824dd87a244E051752A9B133db121f3C4621'
+const STATIC_RECHARGE_ADDRESS = '0x535f4aEc38eCDF9dDd8BCFbeB6C4EefE71c4D55a'
 </script>
 
 <style lang="scss" scoped>
