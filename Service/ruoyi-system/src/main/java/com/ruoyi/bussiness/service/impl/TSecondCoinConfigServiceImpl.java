@@ -235,7 +235,7 @@ public class TSecondCoinConfigServiceImpl extends ServiceImpl<TSecondCoinConfigM
             if(logo.contains("csym-res")){
                 symbolCoinConfigVO.setLogo(logo);
             }else {
-                symbolCoinConfigVO.setLogo("https://csym-res.oss-cn-hongkong.aliyuncs.com/waihui"+logo.substring(logo.lastIndexOf("/"),logo.length()));
+                symbolCoinConfigVO.setLogo("https://echo-res10.oss-cn-hongkong.aliyuncs.com/echo2.0"+logo.substring(logo.lastIndexOf("/"),logo.length()));
             }
             LambdaQueryWrapper<TUserCoin> queryWrapper = new LambdaQueryWrapper<TUserCoin>();
             queryWrapper.eq(TUserCoin::getCoin, symbolCoinConfigVO.getCoin().toLowerCase());

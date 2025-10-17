@@ -14,8 +14,8 @@ ruoyi:
   addressEnabled: false
   # 验证码类型 math 数字计算 char 字符验证
   captchaType: math
-
-  googleHost : https://win999.com
+  # 该配置作为Google Authenticator二维码的"issuer"参数，当用户扫描此二维码后， cex 将显示在Google Authenticator应用中，帮助用户识别这是哪个服务的验证码
+  googleHost : cex
 
 # 开发环境配置
 server:

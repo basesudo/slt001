@@ -112,7 +112,7 @@ public class BeeBuildCompent {
                 .header("referer", "https://quote.fx678.com/")
                 .header("Host", "api-q.fx678img.com")
                 .header("Origin", "https://quote.fx678.com").execute();
-        String logo ="https://csym-res.oss-cn-hongkong.aliyuncs.com/waihui/#.png";
+        String logo ="https://echo-res10.oss-cn-hongkong.aliyuncs.com/echo2.0/#.png";
         KlineSymbol query = new KlineSymbol();
         if (execute.isOk()){
             String result = execute.body();

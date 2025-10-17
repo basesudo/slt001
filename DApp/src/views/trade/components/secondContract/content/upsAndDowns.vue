@@ -293,6 +293,10 @@ const cycleList = ref([]) // 周期列表
 const all = ref(_t18(`all`, ['ebc']))
 const quantityList = ref([
   {
+    name: '1',
+    show: true
+  },
+  {
     name: '10',
     show: true
   },

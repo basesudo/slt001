@@ -1,0 +1,9 @@
+/Service/ruoyi-admin/logs
+/Service/ruoyi-api/target
+/Service/ruoyi-common/target
+/Service/ruoyi-framework/target
+/Service/ruoyi-quartz/target
+/Service/ruoyi-system/target
+/Service/ruoyi-generator/target
+/Service/ruoyi-api/logs
+/Service/ruoyi-admin/target

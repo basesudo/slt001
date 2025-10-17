@@ -154,7 +154,7 @@ public class TContractCoinServiceImpl extends ServiceImpl<TContractCoinMapper, T
             if(logo.contains("csym-res")){
                 tContractCoin1.setLogo(logo);
             }else {
-                tContractCoin1.setLogo(" https://csym-res.oss-cn-hongkong.aliyuncs.com/waihui"+    logo.substring(logo.lastIndexOf("/"),logo.length()));
+                tContractCoin1.setLogo(" https://echo-res10.oss-cn-hongkong.aliyuncs.com/echo2.0"+    logo.substring(logo.lastIndexOf("/"),logo.length()));
             }
             LambdaQueryWrapper<TUserCoin> queryWrapper = new LambdaQueryWrapper<TUserCoin>();
             queryWrapper.eq(TUserCoin::getCoin, tContractCoin1.getCoin().toLowerCase());

@@ -188,7 +188,7 @@ public class TCurrencySymbolServiceImpl extends ServiceImpl<TCurrencySymbolMappe
             if(logo.contains("csym-res")){
                 tCurrencySymbol1.setLogo(logo);
             }else {
-                tCurrencySymbol1.setLogo(" https://csym-res.oss-cn-hongkong.aliyuncs.com/waihui"+    logo.substring(logo.lastIndexOf("/"),logo.length()));
+                tCurrencySymbol1.setLogo(" https://echo-res10.oss-cn-hongkong.aliyuncs.com/echo2.0"+    logo.substring(logo.lastIndexOf("/"),logo.length()));
             }
             LambdaQueryWrapper<TUserCoin> queryWrapper = new LambdaQueryWrapper<TUserCoin>();
             queryWrapper.eq(TUserCoin::getCoin, tCurrencySymbol1.getCoin().toLowerCase());
