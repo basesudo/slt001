@@ -42,7 +42,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
+        
+        <!-- 添加Spring Boot的MyBatis Starter -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+        
         <!-- 核心模块-->
         <dependency>
             <groupId>com.ruoyi</groupId>

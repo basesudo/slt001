@@ -82,7 +82,7 @@
             <version>3.12.0</version>
         </dependency>
 
-        <!-- ORM框架 -->
+        <!-- mybatis-plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
