@@ -16,17 +16,18 @@
       <div class="itemRight fw-num">{{ itemObj.avgRate }}%</div>
     </div>
     <!-- 投入金额 -->
-    <div class="item">
+    <!-- <div class="item">
       <div>{{ _t18(`investment_amount`) }}</div>
       <div class="itemRight fw-num">
         {{ itemObj.amount }} {{ itemObj.coin ? itemObj.coin.toUpperCase() : '' }}
       </div>
-    </div>
+    </div> -->
     <!-- 预估收益 -->
     <div class="item">
       <div>{{ _t18(`Estimated income`) }}</div>
       <div class="itemRight fw-num">
-        {{ priceFormat((itemObj.amount * itemObj.days * 0.05) / 100, 6) }}
+        <!-- 本金加预估收益 -->
+        {{ priceFormat((itemObj.amount * itemObj.days * itemObj.avgRate) / 100, 6) }}
         {{ itemObj.coin ? itemObj.coin.toUpperCase() : '' }}
       </div>
     </div>

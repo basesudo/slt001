@@ -243,7 +243,12 @@ public class SecondContractTask {
 
             HashMap<String, Object> object = new HashMap<>();
             object.put("settlement","3");
-            redisUtil.addStream(redisStreamNames,object);
+            // 不接收返回值，避免RecordId类依赖问题
+            try {
+                redisUtil.addStream(redisStreamNames,object);
+            } catch (Exception e) {
+                log.error("添加stream消息失败", e);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }

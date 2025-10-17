@@ -7,3 +7,4 @@
 /Service/ruoyi-generator/target
 /Service/ruoyi-api/logs
 /Service/ruoyi-admin/target
+/Service/ruoyi-quartz/log
