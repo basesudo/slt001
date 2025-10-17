@@ -1,6 +1,7 @@
 package com.ruoyi.listen;
 
-import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.ruoyi.bussiness.domain.TAppRecharge;
 import com.ruoyi.bussiness.domain.TWithdraw;
 import com.ruoyi.bussiness.service.ITWithdrawService;
@@ -11,7 +12,8 @@ import com.ruoyi.socket.service.MarketThread;
 import com.ruoyi.socket.socketserver.WebSocketNotice;
 import com.ruoyi.telegrambot.MyTelegramBot;
 import com.ruoyi.util.BotMessageBuildUtils;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.redis.connection.stream.MapRecord;
 import org.springframework.data.redis.stream.StreamListener;
 import org.springframework.stereotype.Component;
@@ -22,9 +24,9 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-@Slf4j
 public class ListenerMessage implements StreamListener<String, MapRecord<String, String, String>> {
 
+    private static final Logger log = LoggerFactory.getLogger(ListenerMessage.class);
     ITWithdrawService withdrawService;
     RedisUtil redisUtil;
     List<MarketThread> marketThread;

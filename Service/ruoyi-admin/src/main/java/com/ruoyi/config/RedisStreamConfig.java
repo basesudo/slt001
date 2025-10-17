@@ -6,8 +6,8 @@ import com.ruoyi.listen.ListenerMessage;
 import com.ruoyi.socket.service.MarketThread;
 import com.ruoyi.socket.socketserver.WebSocketNotice;
 import com.ruoyi.telegrambot.MyTelegramBot;
-import lombok.extern.slf4j.Slf4j;
-import lombok.var;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -32,9 +32,10 @@ import java.util.Map;
  * @Description 注入监听类
  * @Date 2021/3/12.
  */
-@Slf4j
 @Configuration
 public class RedisStreamConfig {
+
+    private static final Logger log = LoggerFactory.getLogger(RedisStreamConfig.class);
 
     private final ListenerMessage streamListener;   //监听类
     private final RedisUtil redisUtil;              //redis工具类
@@ -56,14 +57,14 @@ public class RedisStreamConfig {
     @Bean
     public List<Subscription> subscription(RedisConnectionFactory factory){
         List<Subscription> resultList = new ArrayList<>();
-        var options = StreamMessageListenerContainer
+        StreamMessageListenerContainer.StreamMessageListenerContainerOptions options = StreamMessageListenerContainer
                 .StreamMessageListenerContainerOptions
                 .builder()
                 .pollTimeout(Duration.ofSeconds(1))
                 .build();
         for (String redisStreamName : redisStreamNames) {
             initStream(redisStreamName,groups[0]);
-            var listenerContainer = StreamMessageListenerContainer.create(factory,options);
+            StreamMessageListenerContainer listenerContainer = StreamMessageListenerContainer.create(factory,options);
             Subscription subscription = listenerContainer.receiveAutoAck(Consumer.from(groups[0], this.getClass().getName()),
                     StreamOffset.create(redisStreamName, ReadOffset.lastConsumed()), streamListener);
             resultList.add(subscription);

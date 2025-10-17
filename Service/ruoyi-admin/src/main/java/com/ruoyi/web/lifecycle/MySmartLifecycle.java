@@ -5,13 +5,16 @@ import com.ruoyi.common.enums.CachePrefix;
 import com.ruoyi.common.utils.SpringContextUtil;
 import com.ruoyi.telegrambot.MyTelegramBot;
 import com.ruoyi.telegrambot.TelegramBotConfig;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.SmartLifecycle;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-@Slf4j
+
 @Component
 public class MySmartLifecycle implements SmartLifecycle {
+
+    private static final Logger log = LoggerFactory.getLogger(MySmartLifecycle.class);
 
     private volatile boolean running = false;
 

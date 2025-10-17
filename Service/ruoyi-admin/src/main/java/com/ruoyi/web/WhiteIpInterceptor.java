@@ -7,7 +7,8 @@ import com.ruoyi.bussiness.domain.setting.WhiteIpSetting;
 import com.ruoyi.bussiness.service.SettingService;
 import com.ruoyi.common.enums.SettingEnum;
 import com.ruoyi.common.utils.StringUtils;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -18,8 +19,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
 
-@Slf4j
 public class WhiteIpInterceptor implements HandlerInterceptor {
+
+    private static final Logger log = LoggerFactory.getLogger(WhiteIpInterceptor.class);
 
     public static final String LOCALHOST = "127.0.0.1";
     @Autowired

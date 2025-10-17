@@ -26,7 +26,7 @@
     <div class="item">
       <div>{{ _t18(`Estimated income`) }}</div>
       <div class="itemRight fw-num">
-        <!-- 本金加预估收益 -->
+        <!-- 预估收益 -->
         {{ priceFormat((itemObj.amount * itemObj.days * itemObj.avgRate) / 100, 6) }}
         {{ itemObj.coin ? itemObj.coin.toUpperCase() : '' }}
       </div>
