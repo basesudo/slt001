@@ -23,20 +23,35 @@ public class JobInvokeUtil
     public static void invokeMethod(SysJob sysJob) throws Exception
     {
         String invokeTarget = sysJob.getInvokeTarget();
-        System.out.println("jobId:"+sysJob.getJobId());
         String beanName = getBeanName(invokeTarget);
         String methodName = getMethodName(invokeTarget);
         List<Object[]> methodParams = getMethodParams(invokeTarget);
 
         if (!isValidClassName(beanName))
         {
-            Object bean = SpringUtils.getBean(beanName);
-            invokeMethod(bean, methodName, methodParams);
+            // 尝试从Spring容器获取bean，如果不存在则静默处理
+            try {
+                Object bean = SpringUtils.getBean(beanName);
+                invokeMethod(bean, methodName, methodParams);
+            } catch (Exception e) {
+                // 检查是否是NoSuchBeanDefinitionException异常
+                if (e.getCause() instanceof org.springframework.beans.factory.NoSuchBeanDefinitionException || 
+                    e instanceof org.springframework.beans.factory.NoSuchBeanDefinitionException) {
+                    // 直接返回，不记录日志，不抛出异常
+                    return;
+                }
+                throw e; // 其他异常继续抛出
+            }
         }
         else
         {
-            Object bean = Class.forName(beanName).getDeclaredConstructor().newInstance();
-            invokeMethod(bean, methodName, methodParams);
+            try {
+                Object bean = Class.forName(beanName).getDeclaredConstructor().newInstance();
+                invokeMethod(bean, methodName, methodParams);
+            } catch (ClassNotFoundException e) {
+                // 直接返回，不记录日志，不抛出异常
+                return;
+            }
         }
     }
 
